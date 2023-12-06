@@ -143,6 +143,29 @@ h2 {
     background-size: contain;
 }
 
+.box {
+
+}
+
+/* trending books */
+
+#ff-compose .ff-form {
+  background-color: transparent !important;
+
+}
+
+#ff-compose .ff-form p, #ff-compose .ff-form div {
+  font-family: 'Inria Serif', serif !important;
+}
+
+#ff-compose a.ff-powered-img {
+  visibility: hidden !important;
+}
+
+#ff-compose .ff-title, #ff-compose .ff-section-header {
+  font-family: 'Indie Flower' !important;
+}
+
 @media (min-width:640px) {
   nav a {
     
