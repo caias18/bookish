@@ -120,6 +120,15 @@ h2 {
   max-width: 270px;
 }
 
+blockquote {
+color: #000;
+font-family: Inria Serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 .bookcover{
   z-index: 10;
   position: absolute ;
@@ -143,8 +152,15 @@ h2 {
     background-size: contain;
 }
 
-.box {
-
+.rectangle {
+  width: 389px;
+  height: 361px;
+  flex-shrink: 0;
+  background-color: #FFF;
+  margin-top: 1029;
+  margin-bottom: -17;
+  margin-left: 17;
+  margin-right: 8;
 }
 
 /* trending books */
@@ -164,6 +180,10 @@ h2 {
 
 #ff-compose .ff-title, #ff-compose .ff-section-header {
   font-family: 'Indie Flower' !important;
+}
+
+#ff-compose .ff-submit {
+  background-color: #604B80 !important;
 }
 
 @media (min-width:640px) {
