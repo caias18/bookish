@@ -143,11 +143,16 @@ line-height: normal;
   width: 100%;
   max-width: 300px;
   height: auto;
-
 }
 .starcircle{
   width: 150%;
-  height: 150%;
+  height: auto;
+  flex-shrink: 1;
+  position: relative;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 300;
 }
 
 .header-wrapper {
