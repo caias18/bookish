@@ -162,7 +162,7 @@ line-height: normal;
 }
 
 .header-wrapper {
-    background: url(star-5.png);
+    background: url(../assets/star-5.png);
     height: 403px;
     display: flex;
     align-items: center;
